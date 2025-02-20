@@ -29,10 +29,8 @@ class CounterImageReset extends StatefulWidget {
 class _CounterImageResetState extends State<CounterImageReset> {
   int _counter = 0;
   bool _isFirstImage = true;
-  final String _image1 =
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf-0vqmmKK46GCDK7TMx_f4mNfqXdiP2nUkg&s';
-  final String _image2 =
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm2eKI0ckJAJ_lZ8ruBsPm3ylg4j5_87kYng&s';
+  final String _image1 = 'assets/img1.img';
+  final String _image2 = 'assets/img2.img';
   double _opacity = 1.0;
 
   void _incrementCounter() {
